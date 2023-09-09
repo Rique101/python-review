@@ -103,6 +103,22 @@ match grade:
     case _:
         print('Invalid grade.')
 
+#Rewrite the match-case decision structure above as an if-elif-else
+#decision structure.
+grade = 'A'
+
+if grade == 'A':
+    print('Super work!')
+elif grade == 'B':
+    print('Good job!')
+elif grade == 'C':
+    print('You made it.')
+elif grade =='D' or grade == 'F':
+    print('Oh dear ...')
+else:
+    print('Invalid grade.')
+
+
 # Python supports the ternary operator.
 result = 'x is equal to 5 is true.' if (x == 5) else 'x is equal to 5 is false.'
 print(result)

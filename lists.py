@@ -33,7 +33,7 @@ print(len(nums))
 mixed = [1, 'one', 2, 'two', 3, 'three']
 print(mixed)
 
-#A handy way tp step through the elements in a list is by using a loop.
+#A handy way to step through the elements in a list is by using a loop.
 
 #While loop
 i = 0
@@ -41,6 +41,16 @@ while (i < len(nums)):
     print(nums[i], end=" ")
     i = i + 1
 print()
+
+#Rewrite the while loop above so that it outputs only the nums 
+#that are less than 6.
+i = 0
+while i < len(nums):
+    if nums[i] < 6:
+        print(nums[i], end=" ")
+    i = i + 1
+print()
+
 
 #Python has inbuilt functions that may be used to manipulate lists.
 
